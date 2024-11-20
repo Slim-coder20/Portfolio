@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="" alt="">
+            <img src="" alt="mon image" class="rounded-image">
         </div>
     </div>
 </section>

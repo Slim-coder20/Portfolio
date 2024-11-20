@@ -1,0 +1,24 @@
+:root {
+  /* Couleurs */
+  --color-primary: #29e309; /* Vert vif */
+  --color-secondary: #85e309; /* Vert clair */
+  --color-accent: #e0e309; /* Jaune vif */
+  --color-accent-alt: #f0d930; /* Jaune doux */
+  --color-background: #0d0d0d; /* Fond noir */
+  --color-text: #ffffff; /* Texte blanc */
+  --color-text-light: #b3b3b3; /* Texte gris clair */
+
+  /* Typographie */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 3.5rem;
+  --font-size-subheading: 2rem;
+
+  /* Autres */
+  --border-radius: 12px;
+  --transition-duration: 0.3s;
+}
+
+/* Intégrer Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Poppins:wght@400&display=swap");
