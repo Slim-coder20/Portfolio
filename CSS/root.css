@@ -65,3 +65,33 @@ h3 {
   color: var(--color-text);
   text-decoration: none;
 }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  padding: 10px 20px;
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  transition: background-color var(--transition-duration),
+    transform var(--transition-duration);
+}
+.nav-links a:hover {
+  color: var(--color-text);
+  transform: translateY(-3px);
+}
+/* Pour les classes spécifique "btn" du menu de navigation */
+
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  background-color: var(--color-primary);
+}
