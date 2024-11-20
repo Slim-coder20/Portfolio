@@ -41,12 +41,13 @@ try {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Projets</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/root.css">
 
 </head>
 
 <body>
     <?php include 'header.php'; ?>
+
     <h1>Mes Projets</h1>
     <p>Voici la liste de mes projets.</p>
     <?php
@@ -65,6 +66,8 @@ try {
     }
     ?>
 
+
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

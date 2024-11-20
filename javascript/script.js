@@ -11,33 +11,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 }); 
 
-    // Ajouter la classe active // 
+    //  Gestion des États Actifs en JavaScript // 
 
-    window.addEventListener('scroll', () => {
-        const sections = document.querySelectorAll('section');
+    document.addEventListener("DOMContentLoaded", function() {
+        // Gestion de l'état actif en fonction de la page visitée
         const navLinks = document.querySelectorAll('.nav-links a');
-
-        let currentSection = '';
-
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            if (window.scrollY >= sectionTop - 60) {
-                currentSection = section.getAttribute('id');
-            }
-        });
+        const currentLocation = window.location.href;
 
         navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${currentSection}`) {
+            if (link.href === currentLocation) {
                 link.classList.add('active');
             }
         });
+
+        // Gestion du menu hamburger
+        const hamburger = document.querySelector('.hamburger');
+        const navLinksContainer = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('active');
+        });
     });
-
+   
     // Menu hamburger // 
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
 
-    hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
     });

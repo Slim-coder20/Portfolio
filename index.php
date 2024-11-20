@@ -20,7 +20,7 @@
         <div class="container hero-container">
             <div class="hero-content">
                 <h1>Slim Abida </h1>
-                <h3><span class="highlight">Devellopeur Web <Full-stack></Full-stack></span></h3>
+                <h3><span class="highlight">Devellopeur Web Full-Stack</span></h3>
                 <p>Développeur passionné, prêt à relever de nouveaux défis et à créer des expériences utilisateur mémorables.</p>
                 <div class="hero-buttons">
                     <a href="#" class="btn-download">Download CV</a>
@@ -93,7 +93,11 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
+
+
+
+    <?php include 'footer.php'; ?>
+    <script src="./javascript/script.js"></script>
 </body>
 
 </html>
