@@ -22,3 +22,46 @@
 
 /* Intégrer Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Poppins:wght@400&display=swap");
+
+/* Stylisation du body */
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navigation */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-background);
+}
+
+.navbar .brand a {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
