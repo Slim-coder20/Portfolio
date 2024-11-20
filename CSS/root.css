@@ -95,3 +95,49 @@ h3 {
 .btn:hover {
   background-color: var(--color-primary);
 }
+
+/* la classe active */
+.nav-links a.active {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+}
+
+/* Menu Hamburger */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-text);
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: var(--color-background);
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+  }
+}
