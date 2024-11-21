@@ -16,6 +16,7 @@
                 <li><a href="services.php" class="btn">Services</a></li>
                 <li><a href="projets.php" class="btn">Projets</a></li>
                 <li><a href="contact.php" class="btn">Contact</a></li>
+
             </ul>
         </div>
     </nav>
