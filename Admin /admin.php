@@ -19,4 +19,4 @@ try {
     die("Erreur de connexion :" . $e->getMessage());
 }
 
-// Ajouter un projet si le formulaire est soumis // 
+// Vérification des actions de suppression // 
