@@ -58,32 +58,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-
-
+<!-- Section Formulaire-->
 
 <body>
     <?php include 'header.php'; ?>
 
+    <main class="contact-container">
+        <h1 class="button-title">Contactez-moi</h1>
+        <form action="contact.php" method="POST" class="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
 
-    <h1>Contactez-moi</h1>
-    <form action="contact.php" method="POST">
-        <label for="nom">Nom :</label><br>
-        <input type="text" id="nom" name="nom" required><br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
 
-        <label for="email">Email :</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label for="message">Message :</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit" name="submit" class="contact-button">Envoyer</button>
+        </form>
+    </main>
 
-        <input type="submit" value="Envoyer">
-    </form>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
