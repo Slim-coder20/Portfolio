@@ -13,4 +13,26 @@
 </head>
 
 <?php include 'header.php' ?>;
+
+
+<div class="services-section" id="services">
+    <h2>Mes Services</h2>
+    <div class="services-cards">
+        <div class="service-card">
+            <h3>Développement Web</h3>
+            <p>Création de sites web modernes, performants et responsives.</p>
+        </div>
+        <div class="service-card">
+            <h3>Développement Back-End</h3>
+            <p>Conception de systèmes robustes et sécurisés pour vos applications.</p>
+        </div>
+        <div class="service-card">
+            <h3>Conseil en Technologie</h3>
+            <p>Accompagnement pour trouver la solution numérique la plus adaptée à vos besoins.</p>
+        </div>
+    </div>
+</div>
+
+
+
 <?php include 'footer.php' ?>;

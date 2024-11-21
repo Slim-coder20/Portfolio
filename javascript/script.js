@@ -34,6 +34,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
    
     // Menu hamburger // 
+    
     document.addEventListener("DOMContentLoaded", function() {
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');

@@ -314,3 +314,38 @@ h3 {
   background-color: var(--color-accent);
   transform: translateY(-3px);
 }
+
+/* Section A Propos */
+
+.button-title {
+  color: #50d575;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: 0px 0px 10px rgba(240, 217, 48, 0.5);
+}
+
+.about-section {
+  padding: 50px;
+  color: #ffffff;
+  background-color: #222;
+}
+
+.skills ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.linkedin-btn {
+  background-color: #29e309;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-btn:hover {
+  background-color: #50d575;
+}

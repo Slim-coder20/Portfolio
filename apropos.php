@@ -15,21 +15,21 @@
 
 <?php include 'header.php'; ?>
 <div class="about-section" id="about">
-    <h2>À Propos de Moi</h2>
+    <h2 class="button-title">À Propos de Moi</h2>
     <p>Musicien professionnel de formation et de cœur, j’ai construit ma carrière autour de la créativité, de l’émotion et de la technique artistique. Toujours en quête de nouveaux horizons, j’ai choisi de me reconvertir dans le domaine du web et des technologies. Ce choix est né de ma passion pour les univers où l’innovation et la créativité se rejoignent.
 
         Pour moi, le monde du numérique a beaucoup en commun avec la musique : il s’agit de créer, d’explorer et de bâtir des expériences uniques, que ce soit à travers des notes ou des lignes de code. Cette transition reflète ma volonté de mettre ma sensibilité artistique et mon esprit méthodique au service de projets numériques ambitieux
     </p>
     <div class="skills">
-        <h3>Compétences</h3>
+        <h3 class="button-title">Compétences</h3>
         <ul>
             <li>HTML / CSS / JavaScript</li>
-            <li>PHP / Laravel</li>
+            <li>PHP</li>
             <li>MySQL / PostgreSQL</li>
             <li>Git / GitHub</li>
         </ul>
     </div>
-    <a href="https://www.linkedin.com/in/slim-abida-683789199/" target="_blank" class="linkedin-btn">Connectez avec moi sur LinkedIn</a>
+    <a href="https://github.com/Slim-coder20" target="_blank" class="linkedin-btn">Connectez avec moi sur GITHUB</a>
 </div>
 
 
