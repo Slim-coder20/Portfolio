@@ -16,31 +16,29 @@
     <?php include 'header.php'; ?>
 
     <!-- Section d'Accueil (Hero Section) -->
-    <section id="home" class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h1>Slim Abida </h1>
-                <h3><span class="highlight">Devellopeur Web Full-Stack</span></h3>
-                <p>Développeur passionné, prêt à relever de nouveaux défis et à créer des expériences utilisateur mémorables.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn-download">Download CV</a>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="path/to/your-image.jpg" alt="Votre Image" class="rounded-image">
+    <div id="particles-js"></div>
+    <div class="hero">
+        <div class="hero-left">
+            <h1>Slim Abida</h1>
+            <h3>Développeur Web Full-Stack</h3>
+            <p>Développeur passionné, prêt à relever de nouveaux défis et à créer des expériences utilisateur mémorables.</p>
+            <a href="./aasset/CV SLIM ABIDA .pdf" class="btn-download">Download CV</a>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
-    </section>
+        <div class="hero-center">
+            <img src="./ressources /images /Slim Abida.jpeg" alt="Votre image">
+        </div>
+
+    </div>
 
     <!-- Section Portfolio -->
     <section id="portfolio">
         <div class="container">
-            <h2 class="section-title">Mes Projets</h2>
+            <h2 class="section-title">MES PROJETS</h2>
             <div class="portfolio-grid">
                 <?php
                 // Connexion à la base de données et récupération des projets
@@ -97,6 +95,7 @@
 
 
     <?php include 'footer.php'; ?>
+
     <script src="./javascript/script.js"></script>
 </body>
 
