@@ -25,7 +25,7 @@
         <ul>
             <li>HTML / CSS / JavaScript</li>
             <li>PHP</li>
-            <li>MySQL / PostgreSQL</li>
+            <li>MySQL</li>
             <li>Git / GitHub</li>
         </ul>
     </div>

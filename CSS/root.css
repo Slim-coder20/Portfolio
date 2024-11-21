@@ -393,3 +393,69 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* Section Projets : conteneur principale pour les projets */
+
+.projects-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-title {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.projet-card {
+  background-color: #333;
+  padding: 20px;
+  border: 3px solid #29e309;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.projet-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Titre de projet */
+.projet-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #39ff14;
+}
+
+/* Description du projet */
+.projet-description {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Lien du projet */
+.projet-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #39ff14;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.projet-link:hover {
+  background-color: #87eb00; /* Changer la couleur lors du hover */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}

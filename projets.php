@@ -44,30 +44,32 @@ try {
     <link rel="stylesheet" href="./CSS/root.css">
 
 </head>
+<!-- Sections Projets -->
 
 <body>
     <?php include 'header.php'; ?>
 
-    <h1>Mes Projets</h1>
-    <p>Voici la liste de mes projets.</p>
-    <?php
-    // On commence par vérifier si des projets sont présent 
-    // On créé une condition : 
-    if (!empty($projets)) {
-        foreach ($projets as $projet) {
-            echo "<div class='projet'>";
-            echo "<h2>" . htmlspecialchars($projet['titre']) . "</h2>";
-            echo "<p>" . htmlspecialchars($projet['description']) . "</p>";
-            echo "<a href='" . htmlspecialchars($projet['lien']) . "' target='_blank'>Voir le projet</a>";
-            echo "</div><hr>";
-        }
-    } else {
-        echo "<p>Aucun projet trouvé.</p>";
-    }
-    ?>
+    <main class="projects-container">
+        <h1 class="button-title">Mes Projets</h1>
 
+
+        <div class="projects-list">
+            <?php
+            // Vérification s'il y a des projets présents dans la base de données
+            if (!empty($projets)) {
+                foreach ($projets as $projet) {
+                    echo "<div class='projet-card'>";
+                    echo "<h2 class='projet-title'>" . htmlspecialchars($projet['titre']) . "</h2>";
+                    echo "<p class='projet-description'>" . htmlspecialchars($projet['description']) . "</p>";
+                    echo "<a href='" . htmlspecialchars($projet['lien']) . "' class='projet-link' target='_blank'>Voir le projet</a>";
+                    echo "</div>";
+                }
+            } else {
+                echo "<p class='no-project'>Aucun projet trouvé.</p>";
+            }
+            ?>
+        </div>
+    </main>
 
     <?php include 'footer.php'; ?>
 </body>
-
-</html>
