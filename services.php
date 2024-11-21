@@ -12,27 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
 </head>
 
-<?php include 'header.php' ?>;
-
+<?php include 'header.php'; ?>
 
 <div class="services-section" id="services">
-    <h2>Mes Services</h2>
-    <div class="services-cards">
+    <h2 class="button-title">Mes Services</h2>
+    <div class="services-container">
         <div class="service-card">
+            <i class="fas fa-code service-icon"></i>
             <h3>Développement Web</h3>
-            <p>Création de sites web modernes, performants et responsives.</p>
+            <p>Création de sites web modernes et réactifs en utilisant les technologies les plus récentes.</p>
         </div>
         <div class="service-card">
-            <h3>Développement Back-End</h3>
-            <p>Conception de systèmes robustes et sécurisés pour vos applications.</p>
+            <i class="fas fa-paint-brush service-icon"></i>
+            <h3>Design UI/UX</h3>
+            <p>Conception d'interfaces utilisateur élégantes et intuitives pour des expériences mémorables.</p>
         </div>
         <div class="service-card">
-            <h3>Conseil en Technologie</h3>
-            <p>Accompagnement pour trouver la solution numérique la plus adaptée à vos besoins.</p>
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h3>Développement Mobile</h3>
+            <p>Applications mobiles performantes pour une meilleure expérience sur iOS et Android.</p>
         </div>
     </div>
 </div>
-
-
 
 <?php include 'footer.php' ?>;

@@ -255,6 +255,7 @@ h3 {
 .portfolio-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 25px rgba(41, 227, 9, 0.3);
+  cursor: pointer;
 }
 .project-title {
   color: var(--color-primary);
@@ -348,4 +349,47 @@ h3 {
 
 .linkedin-btn:hover {
   background-color: #50d575;
+}
+
+/* Section Services */
+.services-section {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.services-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #222;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #87eb00;
+  margin-bottom: 10px;
+}
+
+.button-title {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 }

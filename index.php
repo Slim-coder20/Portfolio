@@ -16,7 +16,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Section d'Accueil (Hero Section) -->
-    <div id="particles-js"></div>
+
     <div class="hero">
         <div class="hero-left">
             <h1>Slim Abida</h1>
